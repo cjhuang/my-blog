@@ -3,4 +3,4 @@
 
 I will note the useful softwares of Linux in there.
 
-This is note will update irregularly.
+This note will update irregularly.
