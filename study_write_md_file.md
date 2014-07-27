@@ -1,9 +1,7 @@
 # 学习写 **md** 文件
 -------------
 
-> 今天下午学习了一下 *markdown* 的语法，参考资料是 **[Markdown 语法说明]**。
-> [Markdown]:  "http://wowubuntu.com/markdown/"
->	     "md"
+> 今天下午学习了一下 *Markdown* 的语法，参考资料是 [Markdown 语法说明](http://wowubuntu.com/markdown/ "md")。
 >
 > 现在就用 Markdown 来复述一下其语法。
 
@@ -92,6 +90,9 @@
 + 图片
 
 ### 链接
+
+> 注：在列表里只能用行内式链接
+
 ### 强调
 ### 代码
 ### 图片
