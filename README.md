@@ -1,6 +1,10 @@
-MY BLOG
-============
+# My Blog
+-------------
 
-You are Welcom!
+You are welcome !
 
-This is [my blog](https://github.com/cjhuang/my-blog/ "myblog") in GitHub.
+This [my blog](https://github.com/cjhuang/my-blog) on GitHub. 
+Here, I will talk about the software in Linux, some experience
+about anything. 
+
+Welcome to contact me in there.
