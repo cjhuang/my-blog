@@ -33,9 +33,9 @@
 ### Xpad
 Xpad是一款非常小巧的记事本或者说是便签，相当实用。可以通过
 在终端运行 sudo apt-get install xpad 进行安装。它可以提供
-很多个便签，每个便签是相互独立的。如下
+很多个便签，每个便签是相互独立的。界面如下
 
-picture
+![xpad1](https://github.com/cjhuang/my-blog/blob/master/Picture/xpad1.png)
 
 当有多个便签时如果是通过图形界面点击启动 Xpad 或者是在终端
 输入 xpad & 启动的话将只会启动一个便签，那其它便签怎么启
