@@ -12,7 +12,7 @@
 > repository and branch in local terminal
 
 + study some grammar of HTML
-+ 
++ study Jekyll to build GitHub Page
 
 ## <font size=+3 color=red>TIME SPEND</font> ##
 
