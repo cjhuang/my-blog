@@ -21,5 +21,11 @@
 <font size=+2 color=red>must less than five hours</font>
 
 <p>
-<img src="" height=32 width=40>
+<img src="https://github.com/cjhuang/my-blog/blob/master/Picture/einstein.jpg" width=140>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/cjhuang/my-blog/blob/master/Picture/LinuxVersions.jpg" width=140>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/cjhuang/my-blog/blob/master/Picture/gnu-logo.png" width=140>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/cjhuang/my-blog/blob/master/Picture/tex-lion.png" width=140>
 </p>
