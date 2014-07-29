@@ -1,4 +1,8 @@
-# Note the things which should complete in current week #
+<header>
+<img src="http://img.9sky.com/artist/11976.jpg" width=80>
+<font size="+6"><b> The notebook of cjhuang  </b></font>
+<p><font size="+1"><i> Note the things about amateur which should complete in current weekend </i></font></p>
+</header>
 
 ## THIS WEEK ##
 ## From July 27 to August 2 ##
