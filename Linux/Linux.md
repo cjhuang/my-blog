@@ -1,3 +1,26 @@
+# Linux
+-----------
+
+> Something about Linux and Free Software
+
+-----------
+
+# Something
+
+## How to adjust the bright throught command
+we can use the following command to adjust the brightness
+> echo 120 | sudo tee /sys/class/backlight/intel_backlight/brightness
+>> note: 120 is the brightness what we want. We can't throught edit the file
+>> " /sys/class/backlight/intel_backlight/brightness "
+>> directly to adjust the brightness.
+
+If when the system is turned on, the brightness is our hope, we should add
+the line "echo 120 | sudo tee
+/sys/class/backlight/intel_backlight/brightness" to /etc/rc.local befor the
+line "exit 0" in that file. The conent of
+/sys/class/backlight/intel_backlight/max_brightness is the maximum
+brightness of PC.
+
 # Software list
 -----------
 
@@ -9,6 +32,13 @@
   + Lisp ( Scheme )
   + Python
   + Java
+  + Perl
++ Terminal
+  + [rxvt or rxvt-unicode (urxvt)](http://rxvt.sourceforge.net/ "rxvt")
+  + xterm
++ Window Manager
+  + [FVWM](http://www.fvwm.org/ "FVWM")
+  + [Sawfish](http://xwinman.org/sawfish.php "Sawfish")
 + Office
   + Xpad
 + Entertainment
