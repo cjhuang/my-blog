@@ -27,3 +27,6 @@
 > with colorsets(Colorset)
 >
 >
+
+## Command Expansion(1522) ##
+> "$[...]", can used in Function
