@@ -30,3 +30,10 @@
 
 ## Command Expansion(1522) ##
 > "$[...]", can used in Function
+>
+> $[0..9]
+
+## Menu ##
+> Style: AutomaticHotkeys
+>
+> Dynamic menu (2263)
