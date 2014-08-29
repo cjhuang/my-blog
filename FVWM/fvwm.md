@@ -77,3 +77,26 @@
 > In Move Command, we can use relative position: left/top or right/bottom.
 > More Move Command is in (4448)
 >> OpaqueMoveSize [percentage]: Tells fvwm the maximum size window with which opaque window movement should be used.
+
+
+## Window State ##
+Stick, StickAcrossPages, StickAcrossDesks
+but in Style they are Sitcy, StickyAcrossPages, StickyAcrossDesks
+
+# Mouse, Key & Stroke Bindings #
+IgnoreModifiers [Modifiers]
+> Tells fvwm which modifiers to ignore when matching Mouse or Key bindings.
+
+## EdgeCommand (5041) ##
+
+## Key ##
+could see /usr/include/X11/keysymdef.h or /usr/X11R6/lib/X11/XKeysymDB
+(这个文件我的笔记本中没有)
+> windows键在fvwm中对应的是Super_L(我的笔记本上只有一个，在左边),
+> 键盘上那个在Alt_R和Ctrl_R之间的键为Menu
+> 键盘上的Fn键名称为function，但fvwm不支持
+
+## <font color=red>Menu Bindings</font> ##
+
+## Mouse and Key ##
+Mouse/Key [(window)] Button Context Modifiers Function
