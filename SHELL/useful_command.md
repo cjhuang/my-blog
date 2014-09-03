@@ -12,3 +12,6 @@ server font list displayer for X
 
 # rsync #
 a fast, versatile, remote (and local) file-copying tool
+
+# apt-get source #
+get the source of soft
