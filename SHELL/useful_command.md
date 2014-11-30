@@ -24,3 +24,6 @@ We can export the default setting using 'dircolors -p' to file, eg.
 .bashrc before alias ls to
 use the your own setting. In file \".lscolor\", you can set arbitrary color
 for any file.
+
+## pdftk ##
+Editor pdf, e.g. break up, merge, rotate and so on.

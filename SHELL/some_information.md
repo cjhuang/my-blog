@@ -31,3 +31,13 @@ find是一个非常强大的查找命令，下面列出几个用法
 > -newer file: file为一个存在的文件，列出比file还要新的文件名
 
 ### 与用户或用户组有关的参数 ###
+
+## iconv ##
+语系编码转换命令
+--list : 列出iconv支持的语系数据
+
+iconv -f 原本编码 -t 新编码 filename [-o newfile]
+最后一个选项的作用是保留原本的文件
+
+例：将big5编码的文件file.big5转换成utf8编码的文件file.utf8
+iconv -f big5 -t utf8 file.big5 -o file.utf8
