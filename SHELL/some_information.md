@@ -41,3 +41,11 @@ iconv -f 原本编码 -t 新编码 filename [-o newfile]
 
 例：将big5编码的文件file.big5转换成utf8编码的文件file.utf8
 iconv -f big5 -t utf8 file.big5 -o file.utf8
+
+## declare ##
+声明变量类型。bash中默认的变量类型为字符型，使用declare可以声明
+不同的类型。
+-a : 数组
+-i : 整型
+-x : 将后面的变量类型变成环境变量
+-r : 将变量设置成readonly，不可更改也不可重设
