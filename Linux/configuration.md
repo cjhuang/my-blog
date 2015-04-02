@@ -19,3 +19,4 @@
 挪到前面即可，有三处需要改动。
 
 > 参考文章: [Ubuntu 13.10 中文字体设置](http://www.cnblogs.com/daizhe11/p/3384391.html)
+

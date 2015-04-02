@@ -49,3 +49,6 @@ iconv -f big5 -t utf8 file.big5 -o file.utf8
 -i : 整型
 -x : 将后面的变量类型变成环境变量
 -r : 将变量设置成readonly，不可更改也不可重设
+
+## 格式化U盘 ##
+将U盘格式化为fat32格式的命令: mkfs.vfat -F 32 /dev/sda1

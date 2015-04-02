@@ -27,3 +27,7 @@ for any file.
 
 ## pdftk ##
 Editor pdf, e.g. break up, merge, rotate and so on.
+
+## cron ##
+daemon to execute scheduled commands
+> crontab -u user -e

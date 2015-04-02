@@ -1,2 +1,159 @@
-# *HTML* 学习笔记
------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML Study Notes</title>
+</head>
+<body>
+	<header>
+	<font size="+5" color=blue><b> HTML Study Notes </b></font>
+	</header>
+		<blockquote>
+		<!--<p align="center">-->
+		<p align="left">
+		HTML's full name is HyperText Markup Language
+		</p>
+	</blockquote>
+	<h1> Basic Frame</h1>
+	<pre>
+	&lt; !DOCTYPE html &gt; <br>
+	&lt;html lang="en" &gt; <br>
+		&lt;head &gt; <br>
+			&lt;meta charset="UTF-8" &gt; <br>
+			&lt;title &gt;&lt; /title &gt; <br>
+		&lt;/head &gt; <br>
+		&lt;body &gt; <br>
+		&lt;/body &gt; <br>
+	&lt;/html &gt; <br>
+	</pre>
+	<h1> Some target in common use </h1>
+	<h2>Framework</h2>
+	<ul>
+		<li>
+		<b>html</b> : tell browser this is a html file. It define the starting point
+		and end point.
+		</li>
+		<li>
+		<b>head</b> : define the document's heading, it is the container of all heading
+		elements. In &lt;head&gt; element, we can quote scripts, instruct the
+		browser where to find style sheets, provide the meta-information.
+		&lt; head &gt; describes the document properties and information, contain
+		the document title,the location in Web and the relationship with other
+		docuements. Most data in &lt; head &gt; should not appears in web to
+		readers. Following label can be use in head:
+		base,link,meta,script,style title. The label of title is necessary for
+		head, it shows in the web's label, not in the content of web.
+		</li>
+		<li>
+		<b>body</b> : define the body of the documents. The content in &lt;
+		body &gt; will present to the reader.
+		In &lt;body&gt;, we can use background to set the background of the
+		web page. If the picture is smaller than the page, it will
+		repeated.
+		</li>
+	</ul>
+	<h2>Body</h2>
+	<ul>
+		<li>
+		<b>header</b> : define the header of the web page.
+		</li>
+		<li>
+		<b>footer</b> : define the footer of the web page or section. A
+		document can have some &lt;footer&gt;.
+		</li>
+		<li>
+		<b>Paregraphy</b>
+		<ul>
+			<li>
+			<b>h1 &minus h6</b> : define the title. h1 define the largest
+			title, h6 define the smallest title.
+			</li>
+			<li>
+			<b>p</b> : define the paragraph.
+			</li>
+			<li>
+			<b>br</b> : insert a simple newline. &lt;br&gt; has no end tag. When
+			browser meet &lt;p&gt;, generally insert a simple newline between
+			two adjacent paragraphs.
+			</li>
+		</ul>
+		</li>
+		<b>Insert</b>
+		<ul>
+			<li>
+			<b>img</b> : Insert picture. In fact &lt;img&gt; don't insert a
+			picture in web page, just link to pictures. It has two nessary
+			elements: src and alt.
+			<blockquote>
+			&lt;img src="picture link" alt="name"/&gt;
+			</blockquote>
+			<I>property</I> :
+			<ul>
+				<li>
+				src : the URL of the picture
+				</li>
+				<li>
+				alt : provides an alternative text of the image
+				</li>
+				<li>
+				height : the height of picture (pixels)
+				</li>
+				<li>
+				width : the width of picture (pixels)
+				</li>
+			</ul>
+			</li>
+			<li>
+			<b>table</b> : define the table. &lt;th&gt; define meter unit;
+			&lt;td&gt; define standard unit. &lt;tr&gt; define the line in
+			table.
+				<pre>
+					&lt;table border=&quot;1&quot;&gt;
+						&lt;tr&gt;
+							&lt;th&gt;Month&lt;/th&gt;
+							&lt;th&gt;Savings&lt;/th&gt;
+						&lt;/tr&gt;
+						&lt;tr&gt;
+							<code>&lt;td&gt;January&lt;/td&gt;</code>
+							<code>&lt;td&gt;$100&lt;/td&gt;</code>
+						&lt;/tr&gt;
+					&lt;/table&gt;
+				</pre>
+
+			<blockquote>
+				<table border="1">
+					<tr>
+						<th>Month</th>
+						<th>Savings</th>
+					</tr>
+					<tr>
+						<td>January</td>
+						<td>$100</td>
+					</tr>
+				</table>
+			</blockquote>
+			<I>property</I> :
+			<ul>
+				<li>
+				align : define the contents of a table row alignment
+				(right,left,center,justify,char).
+				</li>
+				<li>
+				valign : define the contents of a table column alignment
+				(top, middle,bottom,baseline).
+				</li>
+				<li>
+				char : depending on which character requirements for text
+				alignment.
+				</li>
+				<li>
+				charoff : provision the offset alignment of the first
+				character.
+				</li>
+			</ul>
+			</li>
+		</ul>
+		<b>Other</b>
+	</ul>
+</body>
+</html>

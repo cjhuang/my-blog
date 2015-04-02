@@ -142,3 +142,20 @@ dhclient wlan0
 dhcpcd wlan0
 
 7. 现在无线网卡应该可以正常使用了
+
+# How to open doc, xls, ppt file using wps
+doc: wps file.doc
+
+xls: et  file.xls
+
+ppt: wpp file.ppt
+> use touch file.doc/xls, we can bulid a file doc or xls,
+> but not for ppt. We can use '>file.doc/xls' to build file.
+
+# How to update softeware and system
+sudo apt-get update
+sudo update-manager -d
+
+# How to inhibite Linux to visit certain website
+edit the file "/etc/hosts", add follow
+127.0.0.1  the.name.of.website
