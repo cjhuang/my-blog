@@ -20,3 +20,5 @@
 
 > 参考文章: [Ubuntu 13.10 中文字体设置](http://www.cnblogs.com/daizhe11/p/3384391.html)
 
+## 设置文件的默认打开方式
+文件默认打开方式的设置存储在/usr/share/applications/default.list(全局文件关联)和~/.local/share/applications/mimeapps.list(个人文件关联)中，我们只需要修改后者即可。打开那个文件就知道怎么修改了。该文件中的那些*.desktop文件存储在/usr/share/applications/文件夹中，可根据需要模仿已有的desktop文件编辑自己的desktop文件。xdg-open即是根据我们的设置来打开文件的。
