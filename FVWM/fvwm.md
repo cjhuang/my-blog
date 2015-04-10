@@ -23,6 +23,7 @@
 > Font, IconFont, use in Style, MenuStyle, and DefaultFont commands, font
 > name description can see fvwm manual-Font names and font loading.
 > Some useful font utilities are: xlsfonts, xfontsel, xfd and xset.
+> xfontsel is best
 >
 > Font Shadow Effects, Shadow=size [offset] [directions]]:, it only works
 > with colorsets(Colorset)
